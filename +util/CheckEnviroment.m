@@ -27,7 +27,7 @@ if ~isfile(fullfile(pwd,'Worksheet1','problem_1.m')) || ...
         ~isfile(fullfile(pwd,'Worksheet4','problem_1.m'))
     error('Current folder does not appear to be the root of the i2m_workbooks repository, please change to the correct folder')
 else
-    disp('------------- Congrats! - Environment looks correct -------------')
+    disp('------------- Congrats! - Enviroment looks correct -------------')
 end
 
 end
