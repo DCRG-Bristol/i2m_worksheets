@@ -1,9 +1,5 @@
 clear all; close all;
-%% Task 1: Write a function with the signature [V,M] = GetLoads(x,Loads) 
-% to create shear force and bending moment diagrams, where x is a 1xN 
-% array of values to evaluate the loads at, Loads is a Nx2 array 
-% where the first column denotes the x location of a force, and the second 
-% column denotes its magnitude.
+%% Task 1
 
 function [V,M] = GetLoads(x,forces)
 
@@ -45,7 +41,7 @@ catch err
 end
 
 
-%% Task 2: Plot V and M for the forces = [0 -2;0.5 -1]
+%% Task 2
 
 % calc distribution
 forces = [0 -2;0.5 -1];
@@ -55,17 +51,14 @@ x = 0:0.01:1;
 % make the plot
 
 
-%% Task 3: Create a MATLAB function with the signature 
-% `loads = DiscretiseUniformForce(N,m)`, which discretises a uniformly 
-% distributed load of `m` Newtons into `N` point loads. The output `loads` 
-% should be of a format to be used in the function `GetLoads(x,Loads)`. 
+%% Task 3
 
 function forces = DiscretiseUniformForce(N,m)
 
 
 end
 
-%% Task 3: Plot V and M for a uniformly distributed load of -3N
+%% Task 3
 
 % calc V and M
 forces = DiscretiseUniformForce(100,-3);
@@ -75,25 +68,21 @@ x = 0:0.01:1;
 % create plot
 
 
-%% Task 4: find the value of `b` such that $$\int^1_0{F}dx = 3$$
+%% Task 4
 
 
 
 
 
 
-%% Task 5: Create a MATLAB function with the signature 
-% forces = DiscretiseEllipticalForce(N,m) 
-% which discretise a N Newton elliptical load into a series of m point 
-% loads and returns them as an array which can be used in the function 
-% [V,M] = GetLoads(x,forces). To calculate each point load use the trapezium method
+%% Task 5
 
 
 
 
 
 
-%% Task 6: Plot V and M for both a 3N elliptical load distribution and
+%% Task 6
 
 
 

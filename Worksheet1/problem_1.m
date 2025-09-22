@@ -1,41 +1,40 @@
-%% 1. store the value 6 in a variable x
+%% Task 1
+
+
+%% Task 2
 
 
 
-%% 2. add two to x, store the results in the variable y
+%% Task 3
 
 
 
-%% 3. multiply y by 2 and subtract half of x to it, store the results in z
-
-
-
-%% 4. use the `==` operator to check z is equal to 13
+%% Task 4
  
 
 
-%% 5. learn how to use the `sqrt` command: type `help sqrt` into the command window
+%% Task 5
 
 
 
-%% 6. store the value 16 in the variable $$t$$.
+%% Task 6
   
 
 
-%% 7. evaluate the remainder of t divided by 3 using the rem command (use `help`)
+%% Task 7
     
 
 
-%% 8. use the `sqrt` command to calculate the square root of t and store it in $$x$$
+%% Task 8
 
 
 
-%% 9. calculate the square of x using the `ˆ` operator, store the results in t2
+%% Task 9
    
 
 
-%% 10. use the `==` operator to check t2 is equal to t
+%% Task 10
     
 
 
-%% 11. set `t=10` and repeat steps 8-10.
+%% Task 11
