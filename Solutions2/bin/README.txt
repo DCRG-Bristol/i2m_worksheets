@@ -1,0 +1,1 @@
+Example folder to place generated figures
